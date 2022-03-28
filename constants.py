@@ -14,7 +14,7 @@ desired_space_ratio = 0.8  # ratio of the desired space to the communication ran
 desired_space = comm_range * desired_space_ratio
 # deviate robot heading, so as to avoid robot travlling perpendicular to the walls
 perp_thres = math.pi/18  # threshold, range from the perpendicular line
-devia_angle = math.pi/9  # deviate these much angle from perpendicualr line
+devia_angle = math.pi/6  # deviate these much angle from perpendicualr line
 
 
 
@@ -26,10 +26,10 @@ color_white = (255,255,255)
 color_black = (0,0,0)
 color_grey = (128,128,128)
 color_red = (255,0,0)
-# distinct_color_set = ((230,25,75), (60,180,75), (255,225,25), (0,130,200), (245,130,48),
-#     (145,30,180), (70,240,240), (240,50,230), (210,245,60), (250,190,190),
-#     (0,128,128), (230,190,255), (170,110,40), (255,250,200), (128,0,0),
-#     (170,255,195), (128,128,0), (255,215,180), (0,0,128), (128,128,128))
+distinct_color_set = ((230,25,75), (60,180,75), (255,225,25), (0,130,200), (245,130,48),
+    (145,30,180), (70,240,240), (240,50,230), (210,245,60), (250,190,190),
+    (0,128,128), (230,190,255), (170,110,40), (255,250,200), (128,0,0),
+    (170,255,195), (128,128,0), (255,215,180), (0,0,128), (128,128,128))
 distinct_color_set = ((230,25,75), (60,180,75), (255,225,25), (0,130,200), (245,130,48),
     (145,30,180), (70,240,240), (240,50,230), (210,245,60), (250,190,190),
     (0,128,128), (230,190,255), (170,110,40), (128,0,0),
